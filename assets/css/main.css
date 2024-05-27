@@ -1,6 +1,6 @@
 /**
 * Template Name: Append
-* Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+* Template URL: https://bootstrapmae.com/append-bootstrap-website-template/
 * Updated: May 18 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -1715,17 +1715,61 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
+  max-width: 60px;
+  height: auto;
+  border-radius: 30px; 
+  border: 3px solid var(--background-color);
   margin-right: 10px;
-  
 }
 
-.d-flex{
+.img-mantra{
   align-self: center;
   display: flex;
+}
+
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-item {
+  width: 80%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.testimonial-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
+
+/* Ajustes responsivos */
+@media (max-width: 767px) {
+  .testimonial-item {
+    padding: 10px;
+  }
+
+  .testimonial-item img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .testimonials .testimonial-item h3 {
