@@ -220,3 +220,10 @@ instagramLink.addEventListener('click', function(event) {
   
   window.open(instagramUrl, '_blank');
 });
+
+document.querySelector('.icon-box img').addEventListener('click', function(event) {
+  event.preventDefault(); 
+  var videoUrl = 'http://www.youtube.com/watch?v=QcgCMOAWhIY';
+  window.open(videoUrl, '_blank'); 
+});
+

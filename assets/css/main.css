@@ -919,7 +919,9 @@ section,
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 700;
-}
+  margin-top: 20px; 
+  }
+
 
 .about .icon-box p {
   margin-bottom: 0;
@@ -933,6 +935,7 @@ section,
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
 .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
   margin-top: -40px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -942,6 +945,11 @@ section,
     margin-top: 0;
   }
 }
+
+.icon-box img {
+  width: 100%; 
+}
+
 
 /*--------------------------------------------------------------
 # Stats Section
@@ -1857,6 +1865,8 @@ section,
   background: color-mix(in srgb, var(--default-color), transparent 96%);
   padding: 30px;
 }
+
+
 
 .contact .info-item i {
   font-size: 38px;
