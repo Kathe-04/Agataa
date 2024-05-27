@@ -892,13 +892,16 @@ section,
   margin-left: 10px;
 }
 
-.about .icon-box {
+
+
+.icon-box {
   background-color: #fff;
   padding: 50px 40px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease-out 0s;
 }
+
 
 .about .icon-box i {
   width: 80px;
@@ -2448,9 +2451,6 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
 
 .portfolio-details .swiper-wrapper {
   height: auto;
