@@ -1515,6 +1515,17 @@ section,
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+.container-ella{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  flex-direction: column;  /* Coloca los elementos en una columna */
+}
+
+/* Asegúrate de que el texto esté centrado */
+.member .member-info {
+  text-align: center;
+}
 .team {
   --background-color: #f4f4f4;
 }
@@ -1604,7 +1615,9 @@ section,
   --background-color: #000000;
   --default-color: #ffffff;
   --contrast-color: #ffffff;
+  --accent-color: #007bff; /* Define el color de acento para el hover del botón */
   padding: 80px 0;
+  margin: 40px 0; /* Añadir márgenes superior e inferior */
   position: relative;
   clip-path: inset(0);
 }
@@ -1661,6 +1674,7 @@ section,
   background: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
+
 
 /*--------------------------------------------------------------
 # Testimonials Section
