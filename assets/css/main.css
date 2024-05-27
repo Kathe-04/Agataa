@@ -1719,6 +1719,12 @@ section,
   border-radius: 50px;
   border: 6px solid var(--background-color);
   margin-right: 10px;
+  
+}
+
+.img-mantra{
+  align-self: center;
+  display: flex;
 }
 
 .testimonials .testimonial-item h3 {
