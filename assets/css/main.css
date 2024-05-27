@@ -1,6 +1,6 @@
 /**
 * Template Name: Append
-* Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+* Template URL: https://bootstrapmae.com/append-bootstrap-website-template/
 * Updated: May 18 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -1715,15 +1715,14 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
+  max-width: 60px;
+  height: auto;
+  border-radius: 30px; 
+  border: 3px solid var(--background-color);
   margin-right: 10px;
-  
 }
 
-.d-flex{
+.img-mantra{
   align-self: center;
   display: flex;
 }
