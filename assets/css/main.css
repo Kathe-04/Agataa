@@ -1865,7 +1865,10 @@ section,
   background: color-mix(in srgb, var(--default-color), transparent 96%);
   padding: 30px;
 }
-
+.gy-46 {
+  display: flex;
+  justify-content: center;
+}
 
 
 .contact .info-item i {
