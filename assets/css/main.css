@@ -2714,6 +2714,10 @@ section,
   margin-bottom: 10px;
 }
 
+h5.gracias {
+  display: flex;
+  justify-content: space-around;
+}
 .service-details .help-box h4,
 .service-details .help-box a {
   color: var(--contrast-color);
