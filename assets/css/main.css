@@ -1727,6 +1727,51 @@ section,
   display: flex;
 }
 
+.swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-item {
+  width: 80%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.testimonial-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+}
+
+/* Ajustes responsivos */
+@media (max-width: 767px) {
+  .testimonial-item {
+    padding: 10px;
+  }
+
+  .testimonial-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
