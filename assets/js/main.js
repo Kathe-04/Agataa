@@ -210,3 +210,13 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+var instagramLink = document.querySelector('.bi-instagram').closest('a');
+  
+instagramLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  
+  var instagramUrl = 'https://www.instagram.com/agata_enarmonia/';
+  
+  window.open(instagramUrl, '_blank');
+});
